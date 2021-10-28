@@ -1,0 +1,346 @@
+a, a:hover{text-decoration:none;}
+html, body {
+  font-family: Poppins-Regular, sans-serif;
+
+   background-image: linear-gradient(to bottom, #46a1b4, #40aec2, #37bcd0, #2acade, #12d8eb);
+
+}
+
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+
+}
+
+#logo{
+    border-radius:50%;
+    margin-top:20px;
+    width:70%;
+}
+
+
+
+.container2 {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  
+}
+
+.center {
+  margin-left: 32%;
+  width: 50%;
+  padding: 3%;
+}
+
+.btn-creer-compte{
+    background-color:#46a1b4;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    border: 2px solid #377F8F;
+    margin-left:55px;
+}
+
+.btn-reinitialiser{
+    background-color:#fc30a0;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    border: 2px solid #377F8F;
+    margin-left:55px;
+    margin-right:55px;
+}
+
+.btn-reinitialiser:hover{
+    background-color:#377F8F!important;;
+    color: #fff!important;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    /*padding: 13px 20px;*/
+    border: 2px solid #46a1b4;
+}
+
+.btn-creer-compte:hover{
+    background-color:#377F8F!important;;
+    color: #fff!important;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+    /*padding: 13px 20px;*/
+    border: 2px solid #46a1b4;
+}
+
+
+
+
+
+.titre-cinetheque 
+{
+  font-style: italic;
+  font-size: 2em;
+  color: #fff;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+
+.titre-inscription
+{
+  font-style: italic;
+  font-size: 2em;
+  color: #000;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+.separateur
+{
+  border: 1px solid #fff;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.separateur-pop-up
+{
+  border: 1px solid #000;
+  margin-right: 80%;
+}
+
+
+
+@media screen and (max-width: 1000px){
+  .formulaire
+{
+ 
+  width: 100% !important;
+  margin-left: 0px !important;
+  
+}
+
+}
+
+
+.coordonnees .adr
+{
+  display: flex;
+    padding-left: -10px;
+    transition: background 0.1s ease;
+    align-items: center;
+    margin-left: -8px;
+    justify-content: center;
+}
+
+
+.GI
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #6DBEC2;
+    color: white;
+    padding-top: 12px;
+    padding-left: 14px;
+    font-size: 25px;
+}
+
+
+
+ .coordonnees #cadre{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+                
+                height:19em;
+                padding-left: 0px!important;
+                border: 2px solid red;
+            }
+
+
+
+/****************************************************/
+
+.formulaire
+{
+ 
+  padding: 50px 50px;
+  
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,170,242,1) 0%, rgba(113,193,249,1) 97%, rgba(0,212,255,1) 99%, rgba(0,212,255,1) 100%);
+  
+  margin-left: 70px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+  width: calc(100% - 150px);
+  height: 100%;
+
+  
+}
+
+.formulaire2
+{
+
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,170,242,1) 0%, rgba(113,193,249,1) 97%, rgba(0,212,255,1) 99%, rgba(0,212,255,1) 100%);
+  box-shadow: 5px 5px 15px lightblue;
+  
+  box-shadow: 0 50px 50px rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+}
+
+
+
+.formulaire .formBox
+{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.formulaire .formBox .inputBox
+{
+  position: relative;
+  margin:0 0 35px 0;
+}
+
+
+
+.formulaire .formBox .inputBox.w100
+{
+  width: 100%;
+}
+
+.formulaire .formBox .inputBox input,
+.formulaire .formBox .inputBox textarea
+{
+  background: transparent;
+  width: 100% !important;
+  padding: 5px 0;
+  resize: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #777;
+  outline: none;
+
+}
+
+.formulaire .formBox .inputBox textarea
+{
+  min-height: 100px;
+}
+
+.formulaire .formBox .inputBox span
+{
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  transition: 0.5s;
+  pointer-events: none;
+
+}
+
+.formulaire .formBox .inputBox span .etoile
+{
+  color: red ;
+}
+
+.formulaire .formBox .inputBox input:focus ~ span,
+.formulaire .formBox .inputBox textarea:focus ~ span, 
+.formulaire .formBox .inputBox input:valid ~ span,
+.formulaire .formBox .inputBox textarea:valid ~ span
+{
+  transform:translateY(-20px);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.formulaire .formBox .inputBox input[type="submit"]
+{
+  position: relative;
+  cursor: pointer;
+  background: #00d4ff;
+  color: #fff;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+}
+
+
+
+
+
+
+
+
+/*----------------------*/
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: absolute;
+  top:20%;
+  right: 30%;
+  left: 30%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 100%;
+  max-height: 100%;
+  /*padding: 10px;*/
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password], .form-container input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus, .form-container input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
